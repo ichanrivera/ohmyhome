@@ -1,0 +1,18 @@
+.App {
+  background: #fefefe;
+  padding: 15px 0 30px;
+  text-align: center;
+  height: 100%;
+
+  .filter {
+    cursor: pointer;
+
+    &:hover {
+      color: #4f9cb9;
+    }
+  }
+
+  img {
+    object-fit: cover;
+  }
+}
