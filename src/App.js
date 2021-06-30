@@ -62,7 +62,6 @@ const App = () => {
   };
 
   const onScrollBottom = async () => {
-    console.log('bottom');
     setIsLoading(true);
 
     const query = {
